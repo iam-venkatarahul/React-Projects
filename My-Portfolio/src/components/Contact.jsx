@@ -1,6 +1,6 @@
 //Contact Component
 export default function Contact(){
-    const email = "chintakayalavvrahul"
+    const email = "demorahul"
     return(
         <section id='contact' className="contact">
         <h2>Contact Me</h2>
