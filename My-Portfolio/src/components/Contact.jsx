@@ -1,3 +1,4 @@
+//Contact Component
 export default function Contact(){
     const email = "chintakayalavvrahul"
     return(

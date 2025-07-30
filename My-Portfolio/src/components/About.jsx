@@ -1,3 +1,4 @@
+//About Component
 export default function About() {
   const name = "Venkata Rahul"
   const profession = "Software Engineer"

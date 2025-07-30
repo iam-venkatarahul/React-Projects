@@ -1,3 +1,4 @@
+//Projects Component
 export default function Projects(){
 
     const projects = [
@@ -12,7 +13,7 @@ export default function Projects(){
       link: "https://github.com/iam-venkatarahul/Ultimate-CICD-Pipeline"   
     }
   ]
-  
+
     return(
         <section id = 'projects' className="projects">
         <h2>My Projects</h2>

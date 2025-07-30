@@ -1,4 +1,4 @@
-
+//Footer Component
 export default function Footer(){
     const name = "Venkata Rahul"
     return(
