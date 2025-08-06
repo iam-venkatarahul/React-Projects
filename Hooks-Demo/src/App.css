@@ -15,10 +15,18 @@
   margin-right: 2%;
 }
 
-.app button:hover {
+.app button{
   background-color: #04aff3;
+  border-color: black;
 }
 
 .app input {
   background-color: #fcf6f6;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  padding: 0.5rem;
+  width: 100px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: #333;
 }
