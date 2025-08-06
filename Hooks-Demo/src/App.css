@@ -16,5 +16,9 @@
 }
 
 .app button:hover {
-  background-color: #dcdcdc;
+  background-color: #04aff3;
+}
+
+.app input {
+  background-color: #fcf6f6;
 }
