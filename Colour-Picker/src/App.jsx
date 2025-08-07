@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='app-container' style={{ backgroundColor }}>
         <h1>Colour Picker</h1>
         <div className='color-palette'>
           {
@@ -20,11 +20,17 @@ function App() {
                 key={index}
                 className='color-box'
                 style={{ backgroundColor: color }}
-                onClick={() => setbackgroundColor(color)}
+                onClick={() => handlecolorChange(color)}
               ></div>
             ))
           }
-
+          <div className='custom-color-palette'>
+            <input type='color'
+              onChange={(e) => handlecolorChange(e.target.value)}
+              style={{ width: '50px', height: '50px', border: 'none', cursor: 'pointer' }}
+            />  
+          </div>
+          
         </div>
       </div>
     </>
