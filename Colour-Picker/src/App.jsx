@@ -27,7 +27,7 @@ function App() {
           <div className='custom-color-palette'>
             <input type='color'
               onChange={(e) => handlecolorChange(e.target.value)}
-              style={{ width: '50px', height: '50px', border: 'none', cursor: 'pointer' }}
+              style={{ width: '100px', height: '50px', border: 'none', cursor: 'pointer' }}
             />  
           </div>
           
