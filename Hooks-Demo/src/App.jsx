@@ -3,7 +3,7 @@ import './App.css'
 
 export default function App() {
 
-  // State Hooks - useState hook is used to manage state in functional components
+  //  State Hooks - useState hook is used to manage state in functional components
   // useState returns an array with two elements: the current state value and a function to update it
   // The first element is the state variable, and the second element is the function
   // to update the state variable
